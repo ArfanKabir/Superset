@@ -17,4 +17,6 @@ There are also some bugs since this is in the incubation stage, such as the prog
 # Perks of Superset
 The functionality is amazing. If you add anything into your dataset, it will appear dynamically. There is also a ton of customizablity since the program is open source. Superset comes with PostgreSQL functionality built into it, but I added Microsoft SQL functionality (since I believed that it would run better if I got the program to run in Docker). As long as the database as some sort of database plug in that can be installed through pip, it will work with Superset.
 
-It's also very easy to use, being similar to Quicksight, while also have way more functionality
+It's also very easy to use, being similar to Quicksight, while also have way more functionality due to it being open source. This is exactly why I was able to connect my MSSQL database to the program.
+
+A lot of the problems that the app has are mostly because it is being ran off the local machine. Many of the problems will be fixed when it is out of the incubation stage with Apache
