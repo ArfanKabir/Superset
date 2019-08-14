@@ -11,3 +11,8 @@ Superset itself can be loaded with a couple of examples (which is what I did to 
 
 # Problems with Running Superset
 Originally, I tried to run it using Docker and PostgreSQL (because the examples are loaded into PSQL), but that led to a big hassle that I struggled with for a couple of days. Creating the virutal environment and running it through there was a lot easier and I was able to both load the examples and load my own database onto there. It was also easier using MSSQL, but that was partially because I messed up installing PSQL on my own system.
+
+There are also some bugs since this is in the incubation stage, such as the program freezing when your try to move a chart in your dashboard, and the entire program being dependent on a server; if a server crashes, or data is removed, then your dashbaord may also be ruined as well
+
+# Perks of Superset
+The functionality is amazing. If you add anything into your dataset, it will appear dynamically. There is also a ton of customizablity since the program is open source. Superset comes with PostgreSQL functionality built into it, but I added Microsoft SQL functionality (since I believed that it would run better if I got the program to run in Docker). As long as the database as some sort of database plug in that can be installed through pip, it will work with Superset.  
