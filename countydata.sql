@@ -1,3 +1,5 @@
+/* I didn't create this script by myself */
+
 IF NOT EXISTS (
     select * from sysobjects where name='countyData' and xtype='U'
 ) CREATE TABLE countyData (
