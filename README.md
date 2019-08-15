@@ -14,6 +14,8 @@ Originally, I tried to run it using Docker and PostgreSQL (because the examples 
 
 There are also some bugs since this is in the incubation stage, such as the program freezing when your try to move a chart in your dashboard, and the entire program being dependent on a server; if a server crashes, or data is removed, then your dashbaord may also be ruined as well
 
+Also, whenever you delete a chart from the dashboard, all the charts on the board get deleted. It's an annoying bug that should be fixed before the app gets out of the incubation stage.
+
 # Perks of Superset
 The functionality is amazing. If you add anything into your dataset, it will appear dynamically. There is also a ton of customizablity since the program is open source. Superset comes with PostgreSQL functionality built into it, but I added Microsoft SQL functionality (since I believed that it would run better if I got the program to run in Docker). As long as the database as some sort of database plug in that can be installed through pip, it will work with Superset.
 
