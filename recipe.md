@@ -44,4 +44,6 @@ For example, my database URL looked like mssql+pymssql://sa:XXXXXXXXXX@localhost
 
 Test the connection, and you should get a message saying that it's okay.
 
-Check off all the parameters, and then you should be able to analyze the data in it.
+Check off all the parameters, and then you should be able to add the tables from the database now.
+
+Back at the homepage, you add the tables and get started with analyzing.
