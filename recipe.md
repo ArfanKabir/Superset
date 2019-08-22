@@ -47,3 +47,7 @@ Test the connection, and you should get a message saying that it's okay.
 Check off all the parameters, and then you should be able to add the tables from the database now.
 
 Back at the homepage, you add the tables and get started with analyzing.
+
+# Using the Map
+
+Designate states by using the ISO 3166-2 codes (for example, NY is going to be US-NY)
